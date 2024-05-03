@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://MiscellaneaY.github.io</id>
+    <title>MiscellaneaY</title>
+    <updated>2024-05-03T01:11:06.500Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://MiscellaneaY.github.io"/>
+    <link rel="self" href="https://MiscellaneaY.github.io/atom.xml"/>
+    <subtitle>Y&apos;s miscellanea</subtitle>
+    <logo>https://MiscellaneaY.github.io/images/avatar.png</logo>
+    <icon>https://MiscellaneaY.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, MiscellaneaY</rights>
+    <entry>
+        <title type="html"><![CDATA[3DMax？C4D？Blender!]]></title>
+        <id>https://MiscellaneaY.github.io/post/3dmaxc4dblender/</id>
+        <link href="https://MiscellaneaY.github.io/post/3dmaxc4dblender/">
+        </link>
+        <updated>2024-01-25T10:09:11.000Z</updated>
+        <content type="html"><![CDATA[<p>👉Blender吧还是</p>
+<ol>
+<li>场景编辑：位移-shift+按滚轮，旋转-长按滚轮，缩放-滚动滚轮</li>
+<li>视图调整：（小键盘）1-正，3-侧，5-透，7-顶，实现点-最大化显示，/-独显</li>
+<li>对象编辑快捷键：位移-G，旋转-R，缩放-S，G+X-沿X轴移动，R+Y-沿Y轴旋转，S+Z-沿Z轴缩放，G+Y+3-沿Y轴移动3，R+Z+30-沿Z轴旋转30度，ALT+S-法向缩放</li>
+<li>shift+A-创建对象，shift+D-复制对象，X-删除对象</li>
+<li>Tab键进入编辑模式，包括点、线、面模式。挤出，内插，倒角......</li>
+<li>挤出各面后切换至“各自原点”后缩放，可分别缩小各面。</li>
+<li>游标可动，在游标处创建对象，shift+C-游标归零</li>
+<li>ALT+Z切换至透视模式，选后边的面</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python的数据分析和科学计算]]></title>
+        <id>https://MiscellaneaY.github.io/post/gai-xue-python-liao/</id>
+        <link href="https://MiscellaneaY.github.io/post/gai-xue-python-liao/">
+        </link>
+        <updated>2023-12-29T12:57:48.000Z</updated>
+        <content type="html"><![CDATA[<p>⛳️看来Python是不学不行了啊</p>
+<ol>
+<li>Anaconda是针对科学计算和数据分析的软件，开源免费，支持800左右第三方库。</li>
+<li>Anaconda Navigator启动Anaconda</li>
+<li>conda用于包管理（类似pip）和环境管理（切换python版本）。</li>
+<li>Anaconda包括conda，某版本python，一批python库。</li>
+<li>cmd→conda --version获取conda版本，conda update conda升级conda。</li>
+<li>Anaconda-Environments-root查看已安装/未安装的conda包。</li>
+<li>Spyder编写调试python语言。可以修改Monokai配色风格。</li>
+<li>IPython是一个能调用Python解释器的交互环境，为前台脚本，后台运行的是ptyhon。</li>
+<li>IPython：？-查看字段类型   %run-执行py程序   %magic/hist/pdb/reset等。</li>
+<li>维度是一组数据的组织形式，如一维/二维/多维/高维等。</li>
+<li>一维数据：列表类型（数据类型可以不同，有顺序关系）/集合类型（无序）。二维数据：多个一维数据构成，列表类型。多维数据：列表类型。高维数据：字典类型或数据表达格式。</li>
+<li>Numpy是开源Python科学计算基础库，强大的N维数组对象ndarray，有线性代数/傅里叶变换/随机数生成等功能，是SciPy、Pandas等数据处理和科学计算库的基础。</li>
+<li>约定俗称引用方式：import numpy as np（即定义np作为numpy的别名）。</li>
+<li>ndarray：使一维向量更像单个数据，提升运算速度。是一个多维数组对象，由实际数据和描述这些数据的元数据（数据维度/数据类型等）组成，一般要求所有元素数据类型相同，数组下标从0开始。</li>
+<li>ndarray对象属性：.ndim秩，即维度的数量  .shape对象的尺度  .size对象元素的个数  .dtype对象元素的类型  .itemsize每个元素的大小，以字节为单位</li>
+<li>ndarray的元素类型：</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LabVIEW是个好东西]]></title>
+        <id>https://MiscellaneaY.github.io/post/labview/</id>
+        <link href="https://MiscellaneaY.github.io/post/labview/">
+        </link>
+        <updated>2023-12-04T13:15:20.000Z</updated>
+        <content type="html"><![CDATA[<p>Tip：🎓不自己搞点设备，怎么出新东西？</p>
+<ol>
+<li>LabVIEW又称G语言，VI-Virtual Instrument-虚拟仪器。</li>
+<li>新建空白VI、项目、VI模板。</li>
+<li>LabVIEW分为前面板和程序框图。</li>
+<li>前面板：VI代码接口，用户交互界面，输入空间和显示控件。</li>
+<li>程序框图：背面板，图形程序代码，连线端子、常量、函数、子VI、结构、文字说明。</li>
+<li>程序框图独有的工具栏：高亮显示执行过程、保存连线值、开始单步执行、单步跳过、单步步出。</li>
+<li>Ctrl+E切换前面板和程序框图，Ctrl+C/V复制/粘贴对象，也有对齐、分布等功能。</li>
+<li>数组是程序语言中常用的数据类型，相同类型数据的集合，大小可变，是数值型、布尔型、字符串型等。</li>
+<li>数组框+数据对象=数组控件，数值输入型数组、字符串型数组、指示灯数组等。</li>
+<li>除了9，For循环和数组函数也可用来创建数组显示控件。</li>
+<li>二维数组：添加维度 or 拖动索引值边框 or For循环套For循环 or &quot;创建数组&quot;函数。</li>
+<li>簇是不同数据类型的数据组成的集合。任意数目、任意类型的元素。有效减少连线混乱。</li>
+<li>创建簇：放置簇框→放置数据元素。</li>
+<li>簇内元素顺序很重要，簇与簇之间值的相互传递是建立在两个簇内元素数据类型相同且对应顺序也相同基础上的。</li>
+<li>&quot;捆绑&quot;函数：簇-改变簇中独立元素的值；元素-任何数据类型；输出簇-捆绑结果。</li>
+<li>&quot;按名称捆绑&quot;函数：替换一个/多个簇元素。</li>
+<li>&quot;解除捆绑&quot;函数可以将簇中指定名称的簇元素输出。</li>
+<li>字符串控件包括输入控件、显示控件和下拉框。</li>
+<li>%1.4f含义：%格式说明符；1最小字段宽度，即最小字符数；.4保留四位有效数字；f浮点数。</li>
+<li>%s：格式化字符串</li>
+<li>变量使程序在多个地方对同一个控件进行读/写操作，分为局部变量和全局变量。</li>
+<li>局部变量默认写入型，要使用值，要改为读取型。</li>
+<li>矩阵控件包含实数型矩阵和复数型矩阵。</li>
+<li>LabVIEW程序结构：顺序结构、循环结构、条件结构、使能结构、事件结构和公式节点。</li>
+<li>循环结构：For循环和While循环。For循环：指定开始位置和结束位置，有自动索引功能。While循环：循环终止条件决定循环是否结束，使用While循环时要添加循环终止条件和等待计时器。</li>
+<li>顺序结构：平铺式&amp;层叠式顺序结构。平铺式顺序结构两帧之间直接进行数据传递；平铺式右键&quot;替换为层叠式顺序&quot;，层叠式顺序结构通过右键&quot;添加顺序局部变量&quot;进行数据传递。</li>
+<li>事件结构：等待直至某一事件发生，并执行相应条件分支。&quot;添加事件分支...&quot;控制事件运行方式。</li>
+<li>使能结构：控制程序是否执行，框图使能结构，条件使能结构。</li>
+<li>框图使能结构：直接注释语句，不执行某段程序。</li>
+<li>条件使能结构：通过外部环境变量控制程序是否执行。</li>
+<li>选择结构：选择器接线端用于确定要执行的分支，布尔型、数值型、字符串型和枚举型。</li>
+<li>公式节点：实现复杂的公式运算，还可以写C语言中的文本语言，if...else...，while等。</li>
+<li>位移寄存器：功能与反馈节点相似，用于循环中将上步数据移至下次循环。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XAFS之Demeter]]></title>
+        <id>https://MiscellaneaY.github.io/post/xafs/</id>
+        <link href="https://MiscellaneaY.github.io/post/xafs/">
+        </link>
+        <updated>2023-08-29T05:57:46.000Z</updated>
+        <content type="html"><![CDATA[<p>⚓️Athena<br>
+1 用于数据处理<br>
+2 首次安装后勾选Plugin registry下的所有同步辐射线站框<br>
+3 Athena帮助网站有示例文件<br>
+4 I0是入射光强 ，It是透射光强，I0/It则Numerator为I0，Denominator为It<br>
+5 透射谱勾选Natural log，荧光谱不需要勾选Natural log<br>
+6 Date type μ(E)-原始数据 xanes-只有xanes数据或数据量不多 norm(E)-归一化后的数据 chi(k)-k空间数据 xmu.dat-理论拟合数据返回Athena<br>
+7 确认Energy units-横坐标单位，Energy-横坐标，μ(E)-纵坐标计算公式<br>
+8 Reference参照谱图为It/Ir，勾选Natural log和Same element<br>
+9 加载参照谱图的原因①线站硬件有误差，使用已知样品参照②不同批次样品进行比较<br>
+10 导入数据和参照谱图后save，防崩溃<br>
+11 黄色按钮E k R等显示单个数据的结果，红色按钮E k R等显示勾选的多个数据的结果<br>
+12 E空间：pre-edge和post-edge影响Normalized，Derivative可以帮助选择edge position，相关参数使用下图进行设置<br>
+<img src="https://MiscellaneaY.github.io/post-images/1693314978069.png" alt="" loading="lazy"><br>
+13 k空间：Window决定使用多少数据进行傅里叶变换到R空间，χ(E)将k空间图横坐标变为与E空间相同，相关参数使用下图进行设置<br>
+<img src="https://MiscellaneaY.github.io/post-images/1693315571079.png" alt="" loading="lazy"><br>
+14 R空间：Magnitude为傅里叶变换强度<br>
+15 数据不理想时Plotting k-weights选择2<br>
+16 q空间：k空间数据经过傅里叶到R空间，R空间数据反傅里叶变换到q空间，相关参数使用下图进行设置<br>
+<img src="https://MiscellaneaY.github.io/post-images/1693316265191.png" alt="" loading="lazy"><br>
+17 Save A U I：保存/全选/全不选/反选<br>
+18 导入数据后，需要校正数据，即Calibrate data，Group选择参照组，Smoothing设置为0，使用Select a point进行E0位置选择，即选择E空间一阶导数图（Derivative）的第一个峰的最大值，单击Calibrate进行校正，Main window的Energy shift出现校正位移。此时样品谱图和参照谱图就完成了校正，其他组谱图不动。<br>
+19 校正后回到样品谱图的E空间进行参数设置（12条），首先是E0设置，同一组需要横向比较的样品设置原则尽量保持一致即可，是最高峰or第一个峰。<br>
+20 先确定好好的E0位置再设置其他参数，E0位置决定了pre-edge的位置，即pre-edge位置为E0减去range得到的。range1不能太靠前，-150可以作为参考。range2不能太接近出峰的位置，-60可以作为参考。Normalization range需要谨慎，不好找！range3之前为XANES数据，range3-range4之间为EXAFS数据。range3太靠前会把XANES数据划进EXAFS里，range4太靠后会把过多的噪声信号划进EXAFS里。<br>
+<img src="https://MiscellaneaY.github.io/post-images/1693556286707.png" alt="" loading="lazy"><br>
+21 透射谱的Edge step超过0.3，数据质量就完全可以。透射谱Edge step超过0.6，样品浓度非常高，说明只能用透射谱，不能用荧光谱。如果使用荧光谱则会出现自吸收的问题，荧光谱Edge step在1以上时数据质量较好。<br>
+22 Rbkg为R空间的backgrond，默认1.0，即不存在一个原子与中心原子的距离小于1埃，使用消除背景的方式来砍掉一个峰，方法1选择1.0，方法2选择第一个峰位置的一半（阅读文献）。Rbkg为人为过滤R空间中0-1埃之间的信号。通常设置为1.0，但也要考虑实际情况，防止将真实情况掩盖掉。k-weight通常选2，即依赖性有多大。<br>
+23 Spline range in k与Spline range in E同步变化，k取0-14和0-12的区别为12与14之间间的数据取舍。会影响后续R空间的数据，如果k空间后半部分数据不好，需要考虑取少一点。Spline clamps不太经常改动。<br>
+24 k空间进行傅里叶变换到R空间，即将k空间的结构信息可视化（13条）。k-range首位一般选择在2-3之间，3居多，可以低于3，但绝不能低于2。可以尽量容纳更多的数据，数据越多，质量越好。数据质量不好时，要将k-range后边部分不好的信息去掉。dk一般取1，window一般取Hanning，偶尔有人取K-B。arbitrary k-weight数据展示方式，与数据本身质量无关。<br>
+25 phase correction：对两个数据进行相校正，E空间和k空间不影响，R空间有变化。点了phase correction后数据被调整到更接近实际距离的位置。只影响数据展示，不影响数据拟合的形状等结果。<br>
+26 k空间反傅里叶变换至q空间（16条），R-range及dR设置参考q空间与k空间的相似度，为后续Artemis数据拟合提供参考。<br>
+27 Plotting parameters确定了数据展示方式（数据乘几or上下平移）。<br>
+28 批量处理数据：Align data，Aligning是校准谁，Standard是参考谁校准，Plot as和Fit as一般选deriv(E)或smoothed deriv(E)。方法1：自动校正一个Auto align，方法2：选择多个数据后Align marked gropus，<br>
+<img src="https://MiscellaneaY.github.io/post-images/1693720832868.png" alt="" loading="lazy"><br>
+29 同一样品多次扫描数据的Merge，选中后使用Weight by importance进行Merge μ(E)（好）或norm(E) （退而求其次）。<br>
+30 Deglitch and truncate data：Deglitch a single point是在E空间（μ(E)）或k空间（χ(E)）消除不正常的点，Choose a point-Remove point-Replit。Truncate data是截掉某点前或后的数据。技巧：尽可能少移除点，Copy进行对比。<br>
+<img src="https://MiscellaneaY.github.io/post-images/1693730059136.png" alt="" loading="lazy"><br>
+31 数据保存：File-Save current/markrd group as...-μ(E)/norm(E)，File-Save current/markrd group as...-χ(k)<br>
+32 价态比较：K边元素结果，Fe Co Ni Cu等，比较吸收边位置（切线斜率最大的位置，~0.5），越靠右价态越高。L边元素结果，Pt Au等，比较白线峰的强度（吸收边后第一个峰），强度越高价态越高。<br>
+2️⃣Artemis<br>
+1<br>
+3️⃣Hephaestus<br>
+1</p>
+]]></content>
+    </entry>
+</feed>

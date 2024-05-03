@@ -1,0 +1,207 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LabVIEW是个好东西 | MiscellaneaY</title>
+<link rel="shortcut icon" href="https://MiscellaneaY.github.io/favicon.ico?v=1714698655584">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://MiscellaneaY.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="LabVIEW是个好东西 | MiscellaneaY - Atom Feed" href="https://MiscellaneaY.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="Tip：🎓不自己搞点设备，怎么出新东西？
+
+LabVIEW又称G语言，VI-Virtual Instrument-虚拟仪器。
+新建空白VI、项目、VI模板。
+LabVIEW分为前面板和程序框图。
+前面板：VI代码接口，用户交互界面，输入空..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://MiscellaneaY.github.io">
+  <img class="avatar" src="https://MiscellaneaY.github.io/images/avatar.png?v=1714698655584" alt="">
+  </a>
+  <h1 class="site-title">
+    MiscellaneaY
+  </h1>
+  <p class="site-description">
+    Y's miscellanea
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              LabVIEW是个好东西
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-12-04
+              </span>
+              <span>
+                4 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://MiscellaneaY.github.io/post-images/labview.webp" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>Tip：🎓不自己搞点设备，怎么出新东西？</p>
+<ol>
+<li>LabVIEW又称G语言，VI-Virtual Instrument-虚拟仪器。</li>
+<li>新建空白VI、项目、VI模板。</li>
+<li>LabVIEW分为前面板和程序框图。</li>
+<li>前面板：VI代码接口，用户交互界面，输入空间和显示控件。</li>
+<li>程序框图：背面板，图形程序代码，连线端子、常量、函数、子VI、结构、文字说明。</li>
+<li>程序框图独有的工具栏：高亮显示执行过程、保存连线值、开始单步执行、单步跳过、单步步出。</li>
+<li>Ctrl+E切换前面板和程序框图，Ctrl+C/V复制/粘贴对象，也有对齐、分布等功能。</li>
+<li>数组是程序语言中常用的数据类型，相同类型数据的集合，大小可变，是数值型、布尔型、字符串型等。</li>
+<li>数组框+数据对象=数组控件，数值输入型数组、字符串型数组、指示灯数组等。</li>
+<li>除了9，For循环和数组函数也可用来创建数组显示控件。</li>
+<li>二维数组：添加维度 or 拖动索引值边框 or For循环套For循环 or &quot;创建数组&quot;函数。</li>
+<li>簇是不同数据类型的数据组成的集合。任意数目、任意类型的元素。有效减少连线混乱。</li>
+<li>创建簇：放置簇框→放置数据元素。</li>
+<li>簇内元素顺序很重要，簇与簇之间值的相互传递是建立在两个簇内元素数据类型相同且对应顺序也相同基础上的。</li>
+<li>&quot;捆绑&quot;函数：簇-改变簇中独立元素的值；元素-任何数据类型；输出簇-捆绑结果。</li>
+<li>&quot;按名称捆绑&quot;函数：替换一个/多个簇元素。</li>
+<li>&quot;解除捆绑&quot;函数可以将簇中指定名称的簇元素输出。</li>
+<li>字符串控件包括输入控件、显示控件和下拉框。</li>
+<li>%1.4f含义：%格式说明符；1最小字段宽度，即最小字符数；.4保留四位有效数字；f浮点数。</li>
+<li>%s：格式化字符串</li>
+<li>变量使程序在多个地方对同一个控件进行读/写操作，分为局部变量和全局变量。</li>
+<li>局部变量默认写入型，要使用值，要改为读取型。</li>
+<li>矩阵控件包含实数型矩阵和复数型矩阵。</li>
+<li>LabVIEW程序结构：顺序结构、循环结构、条件结构、使能结构、事件结构和公式节点。</li>
+<li>循环结构：For循环和While循环。For循环：指定开始位置和结束位置，有自动索引功能。While循环：循环终止条件决定循环是否结束，使用While循环时要添加循环终止条件和等待计时器。</li>
+<li>顺序结构：平铺式&amp;层叠式顺序结构。平铺式顺序结构两帧之间直接进行数据传递；平铺式右键&quot;替换为层叠式顺序&quot;，层叠式顺序结构通过右键&quot;添加顺序局部变量&quot;进行数据传递。</li>
+<li>事件结构：等待直至某一事件发生，并执行相应条件分支。&quot;添加事件分支...&quot;控制事件运行方式。</li>
+<li>使能结构：控制程序是否执行，框图使能结构，条件使能结构。</li>
+<li>框图使能结构：直接注释语句，不执行某段程序。</li>
+<li>条件使能结构：通过外部环境变量控制程序是否执行。</li>
+<li>选择结构：选择器接线端用于确定要执行的分支，布尔型、数值型、字符串型和枚举型。</li>
+<li>公式节点：实现复杂的公式运算，还可以写C语言中的文本语言，if...else...，while等。</li>
+<li>位移寄存器：功能与反馈节点相似，用于循环中将上步数据移至下次循环。</li>
+</ol>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://MiscellaneaY.github.io/post/xafs/">
+              <h3 class="post-title">
+                XAFS之Demeter
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
+  <a class="rss" href="https://MiscellaneaY.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
